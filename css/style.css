@@ -1,0 +1,118 @@
+/*common start*/
+body{
+  margin:0;
+  padding:0;
+  font-family:sans-serif;
+  font: size 16px;
+  font: weight 400px;
+}
+/*common End*/
+/*Header Start*/
+header{
+  padding: 20px 0;
+  border: 1px solid black;
+  border-bottom:2px solid #EEF0F3;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.logo{
+  width: 10%;
+  float: left;
+}
+.logo a{
+  display: block;
+}
+.logo a img{
+  width: 100%;
+}
+.menu{
+  width: 50%;
+  float: right;
+}
+.menu ul{
+  float: right;
+}
+.menu ul li{
+  list-style: none;
+  float: left;
+}
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 0 25px;
+    display: inline-block;
+    color:#0f2656;
+}
+.menu ul li a:hover{
+  color: #0E64FC;
+}
+/*Header End*/
+/*Baneer Section Start*/
+.baneer{
+  padding: 60px 0;
+}
+.containeer_2{
+  margin: 0 auto;
+  width: 60%;
+  }
+.b_containeer{
+ text-align: center;
+}
+.b_containeer h1{
+  margin: 0;
+  font-size: 60px;
+  line-height: 70px;
+}
+.b_containeer h1 span{
+  color:#0E64FC;
+}
+.b_containeer p{
+  padding: 0 30px;
+  line-height: 25px;
+  margin: 10px 0;
+}
+.b_img{
+  margin: 0 auto;
+  width: 60%;
+}
+.b_img img{}
+/*Baneer Section End*/
+/*Feture Section Start*/
+
+/*Feture Section End*/
+.feature{
+  padding: 25px 0;
+}
+.f_containeer{
+  overflow: hidden;
+}
+.f_left{
+  width: 45%;
+  float: left;
+  text-align: right;
+  padding: 0 0 0 25px;
+}
+.f_left h2{
+  margin: 0%;
+  font-size: 36px;
+  color: red;
+}
+.f_left p{
+  line-height: 25px;
+  margin: 10px 0 0;
+}
+.f_right{
+  width: 45%;
+  float:right;
+  text-align: left;
+  padding: 0 25px 0 0;
+}
+.f_right h1{
+  margin: 0;
+  font-size: 40px;
+}
